@@ -2,6 +2,10 @@
 #page-container{margin-bottom:20px;}
 #url-rewriting-warning {display: none;}
 
-.input.datetime {overflow:hidden}
-.input.datetime select{display:inline-block;width:120px;margin:0 5px}
-.input.datetime label{display:block}
+.input.datetime, .input.time {overflow:hidden}
+.input.datetime select, .input.time select{display:inline-block;width:120px;margin:0 5px}
+.input.datetime label, .input.time label{display:block}
+
+#UserAdminLoginForm .input{overflow:hidden; margin-top:10px}
+#UserAdminLoginForm label, #UserAdminLoginForm input{display:block;float:left;width:150px}
+#UserAdminLoginForm .submit{overflow:hidden;display:block;margin:10px 0 0 150px}

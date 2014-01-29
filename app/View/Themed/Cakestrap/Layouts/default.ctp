@@ -47,11 +47,13 @@ $cakeDescription = __d('cake_dev', 'Admin panel');
 
     <div id="main-container">
       <div id="header" class="container">
-      <?php if($this->Session->read('Auth.User')): ?>
+      <?php if($this->Session->check('Auth.User')): ?>
           <div class="pull-right"><?php echo $this->Html->link(__('Logout'), '/authentification/users/logout'); ?></div>
       <?php endif; ?>
           <h1><a href="/admin/">Admin</a></h1>
+      <?php if($this->Session->check('Auth.User')): ?>
       <?php echo $this->element('menu/top_menu'); ?>
+      <?php endif; ?>
       </div>
 
       <div id="content" class="container">

@@ -14,18 +14,38 @@
 }
 
 /* line 5, ../sass/main.scss */
-.input.datetime {
+.input.datetime, .input.time {
   overflow: hidden;
 }
 
 /* line 6, ../sass/main.scss */
-.input.datetime select {
+.input.datetime select, .input.time select {
   display: inline-block;
   width: 120px;
   margin: 0 5px;
 }
 
 /* line 7, ../sass/main.scss */
-.input.datetime label {
+.input.datetime label, .input.time label {
   display: block;
+}
+
+/* line 9, ../sass/main.scss */
+#UserAdminLoginForm .input {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+/* line 10, ../sass/main.scss */
+#UserAdminLoginForm label, #UserAdminLoginForm input {
+  display: block;
+  float: left;
+  width: 150px;
+}
+
+/* line 11, ../sass/main.scss */
+#UserAdminLoginForm .submit {
+  overflow: hidden;
+  display: block;
+  margin: 10px 0 0 150px;
 }
