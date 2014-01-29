@@ -12,3 +12,20 @@
 #url-rewriting-warning {
   display: none;
 }
+
+/* line 5, ../sass/main.scss */
+.input.datetime {
+  overflow: hidden;
+}
+
+/* line 6, ../sass/main.scss */
+.input.datetime select {
+  display: inline-block;
+  width: 120px;
+  margin: 0 5px;
+}
+
+/* line 7, ../sass/main.scss */
+.input.datetime label {
+  display: block;
+}
