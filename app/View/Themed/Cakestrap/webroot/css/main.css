@@ -1,1 +1,14 @@
-#header{margin-top:20px}#page-container{margin-bottom:20px}#url-rewriting-warning{display:none}
+/* line 1, ../sass/main.scss */
+#header {
+  margin-top: 20px;
+}
+
+/* line 2, ../sass/main.scss */
+#page-container {
+  margin-bottom: 20px;
+}
+
+/* line 3, ../sass/main.scss */
+#url-rewriting-warning {
+  display: none;
+}
