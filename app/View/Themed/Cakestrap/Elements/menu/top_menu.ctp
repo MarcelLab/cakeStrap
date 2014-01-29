@@ -1,7 +1,6 @@
 <nav class="navbar navbar-default" role="navigation">
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      <li><?php echo $this->Html->link(__(ucfirst('Dashboard')), array('controller' => 'dashboard', 'action' => 'index', 'prefix' => 'admin', 'admin' => true)); ?></li>
       <?php $controllersList = Configure::read('Menu.controllers'); ?>
       <?php if($controllersList) : ?>
       <?php foreach($controllersList as $controllerName => $actionsList) : ?>
@@ -15,7 +14,6 @@
       </li>
       <?php endforeach; ?>
       <?php endif; ?>
-      <li><?php echo $this->Html->link(__(ucfirst('Moderate')), array('controller' => 'moderate', 'action' => 'index', 'prefix' => 'admin', 'admin' => true)); ?></li>
     </ul><!-- /.nav navbar-nav -->
   </div><!-- /.navbar-collapse -->
 </nav><!-- /.navbar navbar-default -->
